@@ -1,0 +1,338 @@
+*{
+
+    font-family: "Montserrat", serif;
+    font-weight: 500;
+    margin: 0;
+    background-color: #121212;
+    color: white;
+    overflow: hidden;
+   
+  }
+  .main{
+      display:flex;
+      height: 100vh;
+      border-radius: 1rem;
+  }
+  .sidebar{
+      background-color:black;
+      width: 340px;
+      border-radius: 1rem;
+      padding: 0.5rem 0.5rem;
+  }
+  .main-content{
+      background-color: #121212;
+      flex:1;
+      border-radius: 1rem;
+      overflow: auto;
+      padding: 0 1.5rem 0 1.5rem;
+  }
+  
+  a{
+      text-decoration: none;
+  }
+  .nav{
+      background-color: #121212;
+      border-radius: 1rem;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      height: 100px;
+  }
+  .nav-option{
+      margin: 0.5rem;
+      opacity: 0.7;
+      padding: 0;
+      margin-left: 2rem;
+      font-size: 1.2rem;
+  }
+  .nav-option:hover{
+      opacity: 1;
+     
+  }
+  
+  .library{
+      background-color: #121212;
+      margin:0.5rem 0.25rem;
+      border-radius: 1rem;
+      height: 4rem;
+      padding: 1.25rem 1rem;
+      font-size: 1.2rem;
+  }
+  .options{
+      display: flex;
+      justify-content: space-between;
+      opacity: 0.7;
+  }
+  .options:hover{
+      opacity: 1;
+  }
+  #op{
+      opacity: 1;
+  }
+  .icon{
+      font-size: 1.4rem;
+      margin: .05remrem;
+      opacity: 0.7;
+  }
+  .icon:hover{
+      opacity: 1;
+  }
+  .box{
+     border-radius: 1rem;
+      background-color: #232323;
+      
+      flex-direction: row;
+      justify-content: center ;
+      margin-bottom: 0.5rem;
+      
+     
+  }
+  .div-p1{
+      background-color: #232323;
+      margin-left: 2rem;
+      padding: 0.5rem;
+      font-weight: 600;
+  }
+  .div-p2{
+      background-color: #232323;
+      margin-left: 2rem;
+      padding: 0.5rem;
+      font-size: 0.75rem;
+  }
+  .badge{
+      background-color:  white;
+      color: black;
+      padding: 0.5rem;
+      border-radius: 1rem;
+      margin-left: 4rem;
+      margin-bottom: 1rem;
+      opacity: 0.7;
+  }
+  .badge:hover{
+      opacity: 1;
+  }
+  .box2{
+      border-radius: 1rem;
+       background-color: #232323;
+       
+       flex-direction: row;
+       justify-content: center ;
+       
+      
+   }
+   .div-p1-2{
+       background-color: #232323;
+       margin-left: 2rem;
+       padding: 0.5rem;
+       font-weight: 600;
+   }
+   .div-p2-2{
+       background-color: #232323;
+       margin-left: 2rem;
+       padding: 0.5rem;
+       font-size: 0.75rem;
+   }
+   .badge2{
+       background-color: white;
+       color: black;
+       padding: 0.5rem;
+       border-radius: 1rem;
+       margin-left: 3rem;
+       margin-bottom: 1rem;
+       opacity: 0.7;
+   }
+   .badge2:hover{
+       opacity: 1;
+   }
+   .sticky-nav{
+      font-size: 1.5rem;
+      position: sticky;
+      top: 0;
+      justify-content: space-between;
+      display: flex;
+      margin: 0.75rem;
+      padding: 0.5rem;
+      align-items: center;
+      z-index: 10;
+      background-color: #121212;
+   }
+  
+   #nav1{
+        margin-right: 0.5rem;
+   }
+   .badge3{
+      background-color: white;
+      color: black;
+      border: none;
+      border-radius: 1rem;
+      font-size: 1.25rem;
+      font-weight: 500;
+   }
+   .badge4{
+      background-color:black;
+      color: white;
+      border: none;
+      border-radius: 1rem;
+      font-size: 1.25rem;
+      font-weight: 500;
+   }
+   @media(max-width:1000px){
+      .hide{
+          display: none;
+      }
+   }
+   .h2{
+      margin: 1rem;
+   }
+   .card{
+      background-color: #232323;
+      width: 160px;
+      border-radius: 0.5rem;
+      
+      padding: 1rem;
+   }
+   .card-container{
+      display: flex;
+      margin-top: 1rem;
+   }
+   .card-img{
+      width: 160px;
+      border-radius: 0.5rem;
+   }
+   .card-info{
+      padding-right: 2rem;
+      font-size: 0.85rem;
+      opacity: 0.8;
+      margin-left: -0.5rem;
+   }
+   .card-title{
+      padding-right: 2rem;
+      font-weight:600 ;
+   }
+   .cards{
+      display: flex;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      margin-top: 1rem;
+   }
+   .h2{
+      display: block;
+   }
+   .footer{
+      height: 300px;
+      width: 90%;
+      display: flex;
+      justify-content: center;
+      align-content: center;
+      
+   }
+   .line{
+      border-top: 1px solid  white;
+      opacity: 0.8;
+  
+   }
+   
+   .music-player{
+      background-color: black;
+      position: fixed;
+      bottom:0px;
+      width: 100%;
+      height: 75px;
+  }
+  .img1{
+      height: 60px;
+      width: 60px;
+      bottom: 0;
+      position: fixed;
+      display: flex;
+      padding: 0.5rem;
+  
+  }
+  
+  .name{
+      height: 60px;
+      width: 110px;
+      position: fixed;
+      bottom: 10px;
+      left: 85px;
+  
+  }
+  .one{
+  font-weight: 500;
+  padding-top: 0.2rem;
+  }
+  .two{
+      font-size: 0.8rem;
+      opacity: 0.8;
+      position: relative;
+      top: 5px;
+      left: 1px;
+      padding-top: 0.3rem;
+  }
+  
+  .name2{
+      display: flex;
+      position: fixed;
+      left: 195px;
+      bottom: 10px;
+      padding: 0rem 2.9rem 0.75rem 1rem;
+  }
+  .small{
+      display: flex;
+  }
+  .heart{
+      padding: 1rem;
+  }
+  .tv{
+      padding: 1rem;
+  }
+  .heart:hover{
+      padding: 1rem;
+      background-color:#232323;
+  }
+  .tv:hover{
+      padding: 1rem;
+      background-color:#232323;
+  }
+  .control{
+      padding: 0.5rem;
+      font-size: 1.5rem;
+      margin-left:4rem ;
+  }
+  .control1{
+      opacity: 0.7;
+      font-size: 1.25rem;
+  
+  }
+  .control:hover{
+      opacity: 1;
+  }
+  .control2{
+      font-size: 2rem;
+  }
+  .progress{
+      position: relative;
+      bottom: 15px;
+      align-items: center;
+      justify-content: center;
+      left: 6rem;
+  }
+  .range1{
+      width: 30%;
+  }
+  #range2{
+      background-color: rgb(0, 64, 255);
+      color: aqua;
+  }
+  .bar{
+      position: fixed;
+      bottom: 20px;
+      right: 10px;
+      font-size: 1rem;
+      font-weight: 300;
+  }
+  @media(max-width:1210px){
+      .bar{
+          display: none;
+      }
+  }
